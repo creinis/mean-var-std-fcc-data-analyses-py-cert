@@ -8,6 +8,10 @@ def calculate(list):
     matrix = np.array(list).reshape(3,3)
     
     calculations = {
+        'mean': [
+            matrix.mean(axis=0).tolist(), 
+            matrix.mean(axis=1).tolist(), 
+            matrix.mean().tolist()],
         
     }
     
