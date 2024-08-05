@@ -20,6 +20,10 @@ def calculate(list):
             matrix.std(axis=0).tolist(), 
             matrix.std(axis=1).tolist(), 
             matrix.std().tolist()],
+        'max': [
+            matrix.max(axis=0).tolist(), 
+            matrix.max(axis=1).tolist(), 
+            matrix.max().tolist()],
     }
     
     return calculations
