@@ -12,7 +12,10 @@ def calculate(list):
             matrix.mean(axis=0).tolist(), 
             matrix.mean(axis=1).tolist(), 
             matrix.mean().tolist()],
-        
+        'variance': [
+            matrix.var(axis=0).tolist(), 
+            matrix.var(axis=1).tolist(), 
+            matrix.var().tolist()],
     }
     
     return calculations
