@@ -7,4 +7,8 @@ def calculate(list):
     
     matrix = np.array(list).reshape(3,3)
     
+    calculations = {
+        
+    }
     
+    return calculations
