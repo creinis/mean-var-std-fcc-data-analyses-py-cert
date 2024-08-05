@@ -16,6 +16,10 @@ def calculate(list):
             matrix.var(axis=0).tolist(), 
             matrix.var(axis=1).tolist(), 
             matrix.var().tolist()],
+        'standard deviation': [
+            matrix.std(axis=0).tolist(), 
+            matrix.std(axis=1).tolist(), 
+            matrix.std().tolist()],
     }
     
     return calculations
